@@ -96,4 +96,4 @@ Duas execuções consecutivas dão resultados idênticos (busca do Chroma config
 | Guilherme Belo | 570079 | Prompt RAG versionado + base de conhecimento |
 | Renato Sandreschi | 569156 | Guardrails/segurança + avaliação + relatório de evolução |
 
-*(A divisão da Sprint 04 é uma proposta: ajuste para refletir quem realmente fez cada parte.)*
+
