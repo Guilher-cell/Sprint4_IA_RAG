@@ -1,0 +1,31 @@
+# --- Sprint 1/2 (legado: chatbot.py, tools.py, modelo_de_testes.py) ---
+groq
+python-dotenv
+
+# --- Sprint 03 (refactory LangChain LCEL) ---
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+langchain-groq
+pydantic>=2.0
+tiktoken
+
+# --- Sprint 04 (RAG + interface) ---
+langchain-chroma        # vector store (ChromaDB persistente)
+langchain-text-splitters # RecursiveCharacterTextSplitter
+chromadb
+pymupdf                 # PyMuPDFLoader (loader de PDF)
+numpy
+gradio                  # interface web (Aula 08)
+pytest                  # tests/test_rag.py
+reportlab               # scripts/gerar_kb_pdfs.py e scripts/gerar_pdf.py
+pypdf                   # scripts/gerar_pdf.py (contagem de páginas)
+
+# --- OPCIONAL: avaliação RAGAS (evals/ragas_eval.py) ---
+# No ambiente de montagem (ragas 0.4.3 + langchain-community 0.4.x) `import ragas` falhou com
+# "No module named 'langchain_community.chat_models.vertexai'". Por isso o projeto usa a rubrica
+# manual documentada em evals/RUBRICA.md (fallback aceito pelo enunciado). Se o seu ambiente
+# importar o ragas, instale-o e rode evals/ragas_eval.py para comparar os dois conjuntos de scores.
+# ragas
+# pandas

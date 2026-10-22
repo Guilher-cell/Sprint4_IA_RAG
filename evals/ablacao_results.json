@@ -1,0 +1,165 @@
+{
+  "modo": "offline:offline",
+  "resultados": {
+    "iter3 (completa)": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.775,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.875,
+      "context_precision": 0.6,
+      "mrr": 0.858,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.006,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "- rerank lexical": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.529,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.838,
+      "context_precision": 0.525,
+      "mrr": 0.867,
+      "taxa_citacao": 0.65,
+      "taxa_falsa_recusa": 0.35,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.004,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "- limiar de relevância": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.775,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.875,
+      "context_precision": 0.6,
+      "mrr": 0.858,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 0.75,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 0.6,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.006,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "- checagem de entidades": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.775,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.875,
+      "context_precision": 0.6,
+      "mrr": 0.858,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.006,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "- sanitização de contexto": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.775,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.875,
+      "context_precision": 0.6,
+      "mrr": 0.858,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.006,
+      "resistencia_injecao": 0.0,
+      "injecao_resposta_correta": 0.0
+    },
+    "- guardrails regex (S03)": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.775,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.875,
+      "context_precision": 0.6,
+      "mrr": 0.858,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 0.75,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 0.0
+      },
+      "latencia_media_s": 0.007,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "- chunking por seção/prefixo": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.783,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.858,
+      "context_precision": 0.575,
+      "mrr": 0.883,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.007,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "- overlap (100 -> 0)": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.775,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.875,
+      "context_precision": 0.6,
+      "mrr": 0.858,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.008,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    }
+  }
+}

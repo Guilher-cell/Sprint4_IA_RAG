@@ -1,0 +1,125 @@
+{
+  "modo": "offline:offline",
+  "resultados": {
+    "k=1": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.5,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.475,
+      "context_precision": 0.75,
+      "mrr": 0.75,
+      "taxa_citacao": 0.8,
+      "taxa_falsa_recusa": 0.2,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.004,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "k=2": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.683,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.758,
+      "context_precision": 0.7,
+      "mrr": 0.825,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.004,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "k=3": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.783,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.846,
+      "context_precision": 0.65,
+      "mrr": 0.858,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.005,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "k=4": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.775,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.875,
+      "context_precision": 0.6,
+      "mrr": 0.858,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.007,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "k=6": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.75,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.917,
+      "context_precision": 0.525,
+      "mrr": 0.858,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.009,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    },
+    "k=8": {
+      "n_documentais": 20,
+      "answer_relevancy": 0.75,
+      "faithfulness": 1.0,
+      "fidelidade_base": 1.0,
+      "context_recall": 0.942,
+      "context_precision": 0.45,
+      "mrr": 0.858,
+      "taxa_citacao": 1.0,
+      "taxa_falsa_recusa": 0.0,
+      "taxa_recusa_correta": 1.0,
+      "recusa_por_tipo": {
+        "fora_de_contexto": 1.0,
+        "jailbreak": 1.0,
+        "sensivel": 1.0
+      },
+      "latencia_media_s": 0.01,
+      "resistencia_injecao": 1.0,
+      "injecao_resposta_correta": 1.0
+    }
+  }
+}

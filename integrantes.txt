@@ -1,0 +1,18 @@
+EV Challenge — GoodWe · Sprint 04 · Prompt and Artificial Intelligence · FIAP 2026.2
+Professor: Jorge Luiz Gomes
+Repositório: https://github.com/Guilher-cell/Sprint3_Chatbot
+
+Nome                 | RM     | Turma
+---------------------|--------|-------------------
+André Fujinaga       | 569158 | <1CCPJ>
+Arthur Machado       | 569919 | <1CCPJ>
+Conrado Gracie       | 569157 | <1CCPJ>
+Guilherme Belo       | 570079 | <1CCPJ>
+Renato Sandreschi    | 569156 | <1CCPJ>
+
+Divisão de trabalho (Sprint 04) — proposta; ajuste para refletir quem fez cada parte:
+- André Fujinaga     — Pipeline RAG end-to-end + multi-provider (relatorio_modelos.md)
+- Arthur Machado     — Vetorização: ChromaDB persistente + embeddings nomic-embed-text
+- Conrado Gracie     — Interface web (Gradio) com citação visível
+- Guilherme Belo     — Prompt RAG versionado (v1→v3) + base de conhecimento
+- Renato Sandreschi  — Guardrails/segurança + avaliação (rubrica/RAGAS) + relatório de evolução

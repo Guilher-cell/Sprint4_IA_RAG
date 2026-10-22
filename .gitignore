@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+data/chroma_db/
+.venv/
+*.zip
+evals/live_cache_*.json
